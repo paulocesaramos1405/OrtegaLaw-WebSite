@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
       }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        {/* Logo e Título */}
+
         <Row justify="center" style={{ marginBottom: '40px' }}>
           <Col xs={24} style={{ textAlign: 'center' }}>
             <Image
@@ -45,9 +45,8 @@ const Footer: React.FC = () => {
 
         <Divider style={{ borderColor: 'rgba(255, 255, 255, 0.2)' }} />
 
-        {/* Conteúdo Principal */}
         <Row gutter={[48, 32]} justify="center">
-          {/* Redes Sociais */}
+          
           <Col xs={24} md={8} style={{ textAlign: 'center' }}>
             <Title level={4} style={{ color: 'white', marginBottom: '24px' }}>
               Connect with Us
@@ -95,7 +94,6 @@ const Footer: React.FC = () => {
             </Space>
           </Col>
 
-          {/* Endereço */}
           <Col xs={24} md={8} style={{ textAlign: 'center' }}>
             <Title level={4} style={{ color: 'white', marginBottom: '24px' }}>
               Our Address
@@ -117,20 +115,11 @@ const Footer: React.FC = () => {
             </Space>
           </Col>
 
-          {/* Social Media Links (versão compacta) */}
           <Col xs={24} md={8} style={{ textAlign: 'center' }}>
             <Title level={4} style={{ color: 'white', marginBottom: '24px'}}>
               Social Media
             </Title>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px', justifyContent: 'center' }}>
-              <Link 
-                href="https://www.linkedin.com/company/ortega-l-h/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                style={{ color: 'white' }}
-              >
-                <LinkedinOutlined style={{ fontSize: '24px' }} />
-              </Link>
               
               <Link 
                 href="https://www.instagram.com/ortega_l_h/" 
@@ -174,7 +163,6 @@ const Footer: React.FC = () => {
 
         <Divider style={{ borderColor: 'rgba(255, 255, 255, 0.2)', margin: '40px 0' }} />
 
-        {/* Rodapé Inferior */}
         <Row justify="center" align="middle">
           <Col xs={24} style={{ textAlign: 'center' }}>
             <Text style={{ color: '#d9d9d9' }}>
