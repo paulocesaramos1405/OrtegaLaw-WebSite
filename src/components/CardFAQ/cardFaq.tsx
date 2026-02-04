@@ -1,13 +1,9 @@
 import React, { useState } from 'react';
 import { Button } from 'antd';
-import btnWpp1 from '@/assets/images/btnWpp1.png';
-import btnWpp2 from '@/assets/images/btnWpp2.png';
 
-const BtnWpp: React.FC = () => {
+const CardFAQ: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   
-  const normalIcon = btnWpp1;
-  const hoverIcon = btnWpp2
 
   return (
     <Button 
@@ -16,35 +12,25 @@ const BtnWpp: React.FC = () => {
       size="large"
       href="tel:+1234567890"
       style={{ 
-        backgroundColor: isHovered ? '#FFFF' :  '#C79855', 
+        backgroundColor: isHovered ? '#3D414D' :  '#3D414D', 
         borderColor: '#1111', 
-        color: isHovered ? '#C79855' : '#FFFFFF',
+        color: isHovered ? '#FFFFFF' : '#C79855',
         fontSize: '27px',
         fontWeight: 'medium',
         display: 'flex',
         alignItems: 'center',
         gap: '20px',
-        width: '259px',
-        height: '69px',
+        width: '280px',
+        height: '320px',
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onTouchStart={() => setIsHovered(true)}
       onTouchEnd={() => setIsHovered(false)}
     >
-        Contact Now
-      <img 
-        src={isHovered ? hoverIcon : normalIcon} 
-        alt="Phone icon"
-        style={{
-          width: '54px',
-          height: '54px',
-          transition: 'all 0.0s ease',
-          marginLeft: '',
-        }}
-      />
+        Family Law
     </Button>
   );
 };
 
-export default BtnWpp;
+export default CardFAQ;

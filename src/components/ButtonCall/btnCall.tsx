@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { Button } from 'antd';
+import btnCall1 from '@/assets/images/btnCall1.png';
+import btnCall2 from '@/assets/images/btnCall2.png';
 
 const BtnCall: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   
-  const normalIcon = '/src/assets/images/btnCall1.png';
-  const hoverIcon = '/src/assets/images/btnCall2.png';
+const normalIcon = btnCall1;
+const hoverIcon = btnCall2;
 
   return (
     <Button 
