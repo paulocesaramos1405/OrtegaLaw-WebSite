@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const CardSmall: React.FC = () => {
+const CardLarge: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [isFlipped, setIsFlipped] = useState(false);
 
@@ -20,8 +20,8 @@ const CardSmall: React.FC = () => {
     >
       <div
         style={{
-          width: '100%',
-          height: '100%',
+          width: '600px',
+          height: '225px',
           position: 'relative',
           transformStyle: 'preserve-3d',
           transition: 'transform 0.6s ease, box-shadow 0.3s ease',
@@ -36,8 +36,8 @@ const CardSmall: React.FC = () => {
         <div
           style={{
             position: 'absolute',
-            width: '100%',
-            height: '100%',
+            width: '600px',
+            height: '225px',
             backgroundColor: '#3D414D',
             color: isHovered ? '#FFFFFF' : '#C79855',
             display: 'flex',
@@ -56,8 +56,8 @@ const CardSmall: React.FC = () => {
         <div
           style={{
             position: 'absolute',
-            width: '100%',
-            height: '100%',
+            width: '600px',
+            height: '225px',
             backgroundColor: '#3D414D',
             color: '#FFFFFF',
             display: 'flex',
@@ -72,11 +72,11 @@ const CardSmall: React.FC = () => {
             borderRadius: '12px',
           }}
         >
-          Family Law Understanding Family Law in Florida Navigating the complexities..
+          Family legal issues require sensitivity, clarity, and firm legal protection. At Ortega Law, we help clients navigate matters such as divorce, child custody, and support with integrity, strategy, and respect. Our commitment is to protect your rights and secure fair, lasting solutions.
         </div>
       </div>
     </div>
   );
 };
 
-export default CardSmall;
+export default CardLarge;
