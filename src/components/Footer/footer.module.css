@@ -1,0 +1,30 @@
+.footer {
+  background: linear-gradient(135deg, #1a365d 0%, #0d1b2a 100%);
+}
+
+.socialIcon:hover {
+  color: #c5a028 !important;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.addressIcon {
+  color: #c5a028;
+}
+
+.quickLink:hover {
+  color: #c5a028 !important;
+  padding-left: 5px;
+  transition: all 0.3s ease;
+}
+
+.footer-bottom-text {
+  text-align: middle;
+}
+
+
+@media (min-width: 768px) {
+  .footer-bottom-text {
+    text-align: middle;
+  }
+}
