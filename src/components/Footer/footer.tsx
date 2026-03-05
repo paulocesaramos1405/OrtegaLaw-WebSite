@@ -21,7 +21,8 @@ const Footer: React.FC = () => {
       style={{ 
         backgroundColor: '#3D414D', 
         color: 'white',
-        padding: '60px 20px 30px'
+        padding: '60px 20px 30px',
+        borderRadius: '20px 20px 0 0',
       }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>

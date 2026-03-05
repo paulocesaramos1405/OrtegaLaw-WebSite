@@ -101,8 +101,11 @@ const styles: { [key: string]: React.CSSProperties } = {
     padding: '50px 40px',
     borderRadius: '20px',
     color: '#fff',
-    maxWidth: '1100px',
+    maxWidth: '100%',
     margin: '0 auto',
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column',
   },
 
   title: {
@@ -137,11 +140,12 @@ const styles: { [key: string]: React.CSSProperties } = {
 
   input: {
     padding: '12px',
-    borderRadius: '6px',
+    borderRadius: '16px',
     border: 'none',
     outline: 'none',
     fontSize: '14px',
     color: '#000000',
+    width: '100%',
   },
 
   divider: {

@@ -1,13 +1,13 @@
-import Home from './pages/Home/home'
-import Footer from './components/Footer/footer'
-import BtnCall from './components/ButtonCall/btnCall'
-import BtnWpp from './components/ButtonWhatsApp/btnWpp'
-import BtnSend from './components/ButtonSend/btnSend'
-import CardSmall from './components/CardSmall/cardSmall'
-import  Header  from './components/Header/header'
-import CardLarge from './components/CardLarge/cardLarge'
-import CardFAQ from './components/CardFAQ/cardFAQ'
-import ContactForm from './components/ContactUs/contactUs'
+import Home from './pages/Home/home.tsx'
+import Footer from './components/Footer/footer.tsx'
+import BtnCall from './components/ButtonCall/btnCall.tsx'
+import BtnWpp from './components/ButtonWhatsApp/btnWpp.tsx'
+import BtnSend from './components/ButtonSend/btnSend.tsx'
+import CardSmall from './components/CardSmall/cardSmall.tsx'
+import Header  from './components/Header/header.tsx'
+import CardLarge from './components/CardLarge/cardLarge.tsx'
+import CardFAQ from './components/CardFAQ/cardFAQ.tsx'
+import ContactForm from './components/ContactUs/contactUs.tsx'
 
 export default function App() {
   return (

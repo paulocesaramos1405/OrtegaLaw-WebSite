@@ -4,6 +4,7 @@ import 'antd/dist/reset.css'
 import Home from './pages/Home/home.tsx'
 
 
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Home />

@@ -1,10 +1,11 @@
 import React from 'react';
-import Header from '@/components/Header/Header';
-import CardSmall from '@/components/CardSmall/CardSmall';
-import ContactUs from '@/components/ContactUs/ContactUs';
-import Footer from '@/components/Footer/Footer';
-import ButtonCall from '@/components/ButtonCall/btnCall';
-import ButtonWhatsApp from '@/components/ButtonWhatsApp/btnWpp';
+import Header from '../../components/Header/header.tsx';
+import CardSmall from '../../components/CardSmall/cardSmall.tsx';
+import ContactUs from '../../components/ContactUs/contactUs.tsx';
+import Footer from '../../components/Footer/footer.tsx';
+import ButtonCall from '../../components/ButtonCall/btnCall.tsx';
+import ButtonWhatsApp from '../../components/ButtonWhatsApp/btnWpp.tsx';
+import Testimonials from '../../components/Testimonials/testimonial';
 
 /* =========================
    SERVICES DATA
@@ -149,16 +150,8 @@ const ClioSection = () => (
 ========================= */
 
 const TestimonialsSection = () => (
-  <section style={testimonialStyles.container}>
-    <h3 style={testimonialStyles.title}>
-      What Our Clients Are Saying
-    </h3>
-
-    <p style={testimonialStyles.text}>
-      "Camilo Ortega is knowledgeable, professional and truly cares about his
-      clients. We felt supported every step of the way and confident in his
-      representation."
-    </p>
+  <section style={contactStyles.container}>
+    <Testimonials />
   </section>
 );
 
@@ -280,7 +273,8 @@ const servicesStyles = {
   } as React.CSSProperties,
 
   title: {
-    fontSize: '32px',
+    fontSize: '38px',
+    fontWeight: 800,
     color: '#C79855',
     marginBottom: '60px',
   } as React.CSSProperties,
