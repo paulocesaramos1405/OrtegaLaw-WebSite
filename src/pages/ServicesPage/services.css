@@ -1,0 +1,75 @@
+/* HERO */
+
+.services-hero{
+    width:100%;
+    height:360px;
+    background-image:url("/images/gavel.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.services-hero h1{
+    color:white;
+    font-size:52px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+
+/* INTRO */
+
+.services-intro{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.services-intro h2{
+    font-size:34px;
+    margin-bottom:20px;
+    color:#1e1e1e;
+}
+
+.services-intro p{
+    color:#555;
+    line-height:1.8;
+}
+
+
+/* SERVICES */
+
+.services-container{
+    max-width:900px;
+    margin:auto;
+    padding:0 20px 80px 20px;
+
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+
+/* ESTILIZAÇÃO DO CARDLARGE */
+
+.services-container .cardLarge{
+    background:#3f4552;
+    color:white;
+    padding:40px;
+    border-radius:12px;
+
+    text-align:center;
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:1px;
+
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.services-container .cardLarge:hover{
+    transform:scale(1.03);
+}

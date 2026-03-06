@@ -1,7 +1,7 @@
 import React from "react";
-import Header from '../../components/Header/header.tsx';
-import Footer from '../../components/Footer/footer.tsx';
-import ContactUs from '../../components/ContactUs/contactUs.tsx';
+import Header from '../../components/Header/Header.tsx';
+import Footer from '../../components/Footer/Footer.tsx';
+import ContactUs from '../../components/ContactUs/ContactUs.tsx';
 import BtnCall from '../../components/ButtonCall/btnCall.tsx';
 import BtnWpp from '../../components/ButtonWhatsApp/btnWpp.tsx';
 
